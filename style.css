@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#sketch-container {
+    height: 400px;
+    width: 400px;
+    display: none;
+    margin: 100px auto 0 auto;
+    border: 2px solid black;
+}
+
+form {
+    margin-top: 5vh;
+}
+
+.pixels:hover {  
+    background-color: darkgrey;
+}
+
+.center-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
